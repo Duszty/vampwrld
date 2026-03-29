@@ -115,7 +115,7 @@ end)
 local teleportFunc = queue_on_teleport or (syn and syn.queue_on_teleport)
 if teleportFunc then
     -- Replace the URL with your raw script link if you host it online
-    teleportFunc([[loadstring(game:HttpGet("https://raw.githubusercontent.com/Duszty/vampwrld/main/vampwrld.lua"))()]])
+    teleportFunc([[loadstring(game:HttpGet("https://raw.githubusercontent.com/Duszty/vampwrld/refs/heads/main/vampwrld.lua"))()]])
 end
 
 -- // --- FINALIZE --- //
